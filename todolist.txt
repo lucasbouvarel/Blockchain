@@ -1,0 +1,5 @@
+-Regler problème de si transaction arrive pendant torneo, faire en sorte que quand système torneo, rien d'autre soit fait, en attente avec un lock.
+-envoyer block plutôt que blockchain
+-faire une base de donnée en dur
+-faire les test
+-écrire rapport
