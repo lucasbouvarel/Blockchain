@@ -3,19 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/Block.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadBlockchain.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadServer.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/StringUtil.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/TransactionInput.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/Blockchain.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadCreateTransaction.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadConnectedList.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/TransactionOutput.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadAddTransaction.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/Transaction.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/Person.java</file>
-            <file>file:/home/labredes/Documentos/Blockchain/src/blockchain/ThreadWaitingBlockchain.java</file>
+            <file>file:/Users/lucasbouvarel/Documents/Blockchain/src/blockchain/Transaction.java</file>
+            <file>file:/Users/lucasbouvarel/Documents/Blockchain/src/blockchain/TransactionOutput.java</file>
+            <file>file:/Users/lucasbouvarel/Documents/Blockchain/src/blockchain/TransactionInput.java</file>
+            <file>file:/Users/lucasbouvarel/Documents/Blockchain/src/blockchain/Person.java</file>
+            <file>file:/Users/lucasbouvarel/Documents/Blockchain/src/blockchain/Block.java</file>
         </group>
     </open-files>
 </project-private>

@@ -63,7 +63,7 @@ public class Block implements Serializable {
     public boolean addTransaction(Transaction transaction) {
         //process transaction and check if valid, unless block is genesis block then ignore.
         try {
-            
+
             if (transaction == null) {
                 return false;
             }
@@ -77,7 +77,7 @@ public class Block implements Serializable {
 
             return true;
         } finally {
-            
+
         }
 
     }

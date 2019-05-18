@@ -1,13 +1,8 @@
 package blockchain;
-
 import java.security.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Transaction implements Serializable {
@@ -19,13 +14,10 @@ public class Transaction implements Serializable {
     public String trans; // the transaction
     public byte[] signature;
     public long timeStamp;
-
-
     public ArrayList<TransactionInput> inputs = new ArrayList<TransactionInput>();
     public ArrayList<TransactionOutput> outputs = new ArrayList<TransactionOutput>();
 
-    public static int sequence = 0; // a rough count of how many transactions have been generated.
-
+    
     // Constructor:
     public Transaction(PublicKey from, PublicKey to, String trans, ArrayList<TransactionInput> inputs) {
         this.sender = from;
@@ -33,7 +25,7 @@ public class Transaction implements Serializable {
         this.trans = trans;
         this.inputs = inputs;
         this.timeStamp=new Date().getTime();
-        sequence++;
+        
     }
 
     // This Calculates the transaction hash (which will be used as its Id)

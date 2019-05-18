@@ -1,5 +1,8 @@
--Regler problème de si transaction arrive pendant torneo, faire en sorte que quand système torneo, rien d'autre soit fait, en attente avec un lock.
--envoyer block plutôt que blockchain
--faire une base de donnée en dur
--faire les test
--écrire rapport
+-one transaction is broadcasted to 90% of the node in around 15 seconds (2017/04/05)
+Then it depends on how you send:If it sends 1, waits for it to propagate, then sends the next, yes
+If it just sends them all together, then it's more important to consider how many bytes total are being sent than how many transactions are
+Ref : http://bitcoinstats.com/network/propagation/
+
+10 000 thousands transactions at the same time --> memory problem(too many thread)
+
+https://bitcointalk.org/index.php?topic=4682655.0
